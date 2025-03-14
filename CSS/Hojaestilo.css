@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding: 0;
+    margin: 0;
+
+}
+
+header, nav, main, footer{
+    background-color:lightskyblue;
+    color:lightblue;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+nav{
+    background-color:#74A0D7;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #4D68D7;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+nav ul li:hover{
+    background-color:deepskyblue;
+    
+}
+
+section{
+    background-color:cornflowerblue;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 80%;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+h1,{
+    text-align: center;
+    font-size: 48px;
+}
+
+footer{
+    text-align: center;
+    height: 30px;
+    background-color:deepskyblue;
+    font-size: 18px;
+}
+#tabla_1{
+    background-color:darkblue;
+    border: 2px solid black;
+    border-spacing: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_1 th{
+    font-size: 2opx;
+    background-color:darkblue;
+    color:skyblue;
+}
+
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid black; 
+    padding: 10px;
+}
+
+#tabla_cebras{
+    width: 80%;
+    border-spacing: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    
+}
+
+#tabla_cebra th{
+    background-color: darkblue;
+}
+
+#tabla_cebra td, #tabla_cebra th{
+    padding: 10px;
+    border width: 5px;
+    border color: black;
+    border-style: solid;
+}
+#tabla_cebra tbody tr:nth-child(even){
+    background-color:#4157AF;
+}
+
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: cadetblue;
+}
+
+#tabla_hover{
+    width: 70%;
+    background-color: cadetblue;
+    color: aquamarine;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#tabla_hover th{
+    background-color:aliceblue;
+    color:dodgerblue;
+}
+
+#tabla_hover td, #tabla_hover th{
+    border width: 2px;
+    border color: darkslateblue;
+    border-style: solid;
+    padding: 20px;
+}
+
+#tabla_hover tr:hover{
+    background-color: steelblue;
+    color: cadetblue;
+}
+
+img{
+    width: 100%;
+    margin top: 50px;
+    
+}
+
+main section{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    margin-top: 20px;
+}
+.img_flotante{
+    width: 20%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+}
+.alineacion{
+    float: right;
+    margin top: 0;
+}
+
+#fondo_box{
+    background-image: url(11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.img_filter{
+    text-align: center;
+}
+
+.img_filter p, .img_filter h2{
+    text-align: justify;
+}
+
+.img_filter img{
+    width: 200px;
+    margin: 20px;}
+
+}
+
+.img-border.redondo{
+    margin-bottom: 30px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+
+}
+
+label{
+    color:aquamarine;
+    font-size: 18px;
+}
+
+input.textarea{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:dodgerblue;
+    color:darkblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color:lightblue;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color:azure;
+    color:darkblue;
+}
+
+input[type=radio], input[typy=checkbox]{
+    width: 10px;
+}
+
+form{
+	width: 50%;
+	height: 400px;
+		padding: 50px;
+		background-color: lightblue;
+		margin-left: auto;
+		margin-right: auto;
+		border-radious: 10px;
+	
+	label{
+		color:honeydew;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	input{
+		width: 80% ;
+		margin-top:10px;
+			margin-bottom: 10%;
+			padding: 10%;
+			background-color:aliceblue;
+			color:darkblue;
+			font-weight:bold;
+			font-size: 18px;
+	}
+
+	input{
+		width: 80% ;
+		margin-top:10px;
+			margin-bottom: 10%;
+			padding: 10%;
+			background-color:aliceblue;
+			color:darkblue;
+			font-weight:bold;
+			font-size: 18px;
+	}
